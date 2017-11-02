@@ -2,7 +2,7 @@
 
 ## Drupal 7
 
-These instructions assume CiviCRM and Drupal are on separate databases located on the same physical host.
+These instructions assume CiviCRM and Drupal are on separate databases located on the same physical host. Also please note that the views module should be nstalled on your Drupal 7 site
 
 1. Before making any changes, it is _strongly_ advised that you make backups of your mysql databases and settings.php file.
 1. If you have different database users for your CiviCRM and Drupal databases, then you need to grant `SELECT` access for the Drupal user to all the CiviCRM tables.
